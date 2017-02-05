@@ -1,0 +1,387 @@
+\hypertarget{class_servico}{}\section{Servico Class Reference}
+\label{class_servico}\index{Servico@{Servico}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_servico_a8b6f40149eb529a927703a00a381438b}{Servico} (std\+::string origem, std\+::string destino)
+\item 
+\hyperlink{class_servico_ab609e373cf4be42f5dd2e5d445a04eb2}{Servico} (std\+::string origem, std\+::string destino, \hyperlink{structdata__struct}{data\+\_\+struct} dt, \hyperlink{structtempo}{tempo} horas)
+\item 
+bool \hyperlink{class_servico_a10923a60963d5aac9d0dcd44270efc04}{operator==} (const \hyperlink{class_servico}{Servico} \&serv) const
+\item 
+std\+::string \hyperlink{class_servico_a94a8edb640edc76aa7b7af9081fc2fd0}{get\+Origem} () const
+\item 
+std\+::string \hyperlink{class_servico_a715e7c0bf6aa2479930b16ad023b2691}{get\+Destino} () const
+\item 
+\hyperlink{structtempo}{tempo} \hyperlink{class_servico_aa2300b7df851d1364c1169b319902ec7}{get\+Horas} () const
+\item 
+float \hyperlink{class_servico_ad383b4f4056f5b7d3fc82e95675c557e}{get\+Valor} () const
+\item 
+\hyperlink{structdata__struct}{data\+\_\+struct} \hyperlink{class_servico_aef61103b440f1836564e82ba17999ff2}{get\+Data} () const
+\item 
+unsigned int \hyperlink{class_servico_a9d988317886813534139f10a1ff9f7e9}{get\+Id} () const
+\item 
+std\+::string \hyperlink{class_servico_aeff1f2a4fa64195ddae2beb02456ac2b}{get\+Informacao} () const
+\item 
+bool \hyperlink{class_servico_a60e091f3c66a19a2def89e31638aadb4}{get\+Estado} () const
+\item 
+unsigned int \hyperlink{class_servico_af35c95d3aea91550c261110d236fe557}{get\+Default\+Id} () const
+\item 
+float \hyperlink{class_servico_a139c67d63bce1723bf9bd1db05cbcc31}{get\+Default\+Valor} () const
+\item 
+\hyperlink{structtempo}{tempo} \hyperlink{class_servico_a69298e17de982c6e78ce1bd73913bf65}{get\+Inicio\+Periodo\+Transito} () const
+\item 
+\hyperlink{structtempo}{tempo} \hyperlink{class_servico_a376dc1a7619fce4be391b7f74a17c4df}{get\+Fim\+Periodo\+Transito} () const
+\item 
+float \hyperlink{class_servico_a558609d8ad7788077ae862d6310b4749}{get\+Imposto\+Transito} () const
+\item 
+unsigned int \hyperlink{class_servico_a55bffcfc2f93d1b2b2668e229d23027c}{get\+N\+IF} () const
+\item 
+void \hyperlink{class_servico_a0dd5e506d6388538e9da079e20bf7800}{set\+Origem} (std\+::string origem)
+\item 
+void \hyperlink{class_servico_ada5fab814c216f9640fa0eebdd04ab77}{set\+Destino} (std\+::string destino)
+\item 
+void \hyperlink{class_servico_a2cfccaa3cc56733e9d774c5e61bb1a65}{set\+Data} (\hyperlink{structdata__struct}{data\+\_\+struct} dt)
+\item 
+void \hyperlink{class_servico_afecbce44254ae95759509bdbca5e295d}{set\+Horas} (\hyperlink{structtempo}{tempo} horas)
+\item 
+void \hyperlink{class_servico_ad51a5b61535715cd6ab8419898fcffce}{set\+Pago} ()
+\item 
+void \hyperlink{class_servico_aa9c028f4ffe178768365ea55e7051293}{set\+Tipo\+Pagamento} (std\+::string tipo)
+\item 
+void \hyperlink{class_servico_ad349510a77b1b2176f0a558b52dc78ce}{set\+Valor} (float valor)
+\item 
+void \hyperlink{class_servico_afeaa97aa17a512532433735450abdec3}{set\+N\+IF} (unsigned int N\+IF)
+\item 
+void \hyperlink{class_servico_a5c008406c514cdc7ed075f5e6cedb3d0}{set\+Periodo\+Transito} ()
+\item 
+void \hyperlink{class_servico_a93662abf01c760893411311ef1f8c1e3}{set\+Imposto\+Transito} (float imposto)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_servico_adc61c6dbedb4cefb18b4e82436d5d1cf}{}\label{class_servico_adc61c6dbedb4cefb18b4e82436d5d1cf} 
+unsigned int {\bfseries id}
+\item 
+\hypertarget{class_servico_af3d1a33010e30a693ee640d5625268fc}{}\label{class_servico_af3d1a33010e30a693ee640d5625268fc} 
+std\+::string {\bfseries origem}
+\item 
+\hypertarget{class_servico_a88080204f9acc6da2c15830817eb9f70}{}\label{class_servico_a88080204f9acc6da2c15830817eb9f70} 
+std\+::string {\bfseries destino}
+\item 
+\hypertarget{class_servico_a11a2de60cee33353a981eddcd6146fde}{}\label{class_servico_a11a2de60cee33353a981eddcd6146fde} 
+unsigned int {\bfseries distancia}
+\item 
+\hypertarget{class_servico_a0ba390000a8fba7bb947f4d1be23408d}{}\label{class_servico_a0ba390000a8fba7bb947f4d1be23408d} 
+float {\bfseries valor}
+\item 
+\hypertarget{class_servico_a2ebe86effb803263fbc9691d68820530}{}\label{class_servico_a2ebe86effb803263fbc9691d68820530} 
+\hyperlink{structdata__struct}{data\+\_\+struct} {\bfseries data\+\_\+realizacao}
+\item 
+\hypertarget{class_servico_a9c7840ad48a7a605163f56178d1d8355}{}\label{class_servico_a9c7840ad48a7a605163f56178d1d8355} 
+\hyperlink{structtempo}{tempo} {\bfseries horas}
+\item 
+\hypertarget{class_servico_ad309d93edf8157ee3c245dee2e50d8ba}{}\label{class_servico_ad309d93edf8157ee3c245dee2e50d8ba} 
+bool {\bfseries estado}
+\item 
+\hypertarget{class_servico_aedb2736229479599024b174e5e53a0a9}{}\label{class_servico_aedb2736229479599024b174e5e53a0a9} 
+std\+::string {\bfseries tipo\+\_\+pagamento}
+\item 
+\hypertarget{class_servico_a60b67e9e285c893640b95e7fd91d9448}{}\label{class_servico_a60b67e9e285c893640b95e7fd91d9448} 
+unsigned int {\bfseries N\+IF}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_servico_a8b6f40149eb529a927703a00a381438b}{}\label{class_servico_a8b6f40149eb529a927703a00a381438b} 
+\index{Servico@{Servico}!Servico@{Servico}}
+\index{Servico@{Servico}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{Servico()}{Servico()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Servico\+::\+Servico (\begin{DoxyParamCaption}\item[{std\+::string}]{origem,  }\item[{std\+::string}]{destino }\end{DoxyParamCaption})}
+
+Constructor de um \hyperlink{class_servico}{Servico} (viagem)
+
+
+\begin{DoxyParams}{Parameters}
+{\em origem,destino} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_servico_ab609e373cf4be42f5dd2e5d445a04eb2}{}\label{class_servico_ab609e373cf4be42f5dd2e5d445a04eb2} 
+\index{Servico@{Servico}!Servico@{Servico}}
+\index{Servico@{Servico}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{Servico()}{Servico()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Servico\+::\+Servico (\begin{DoxyParamCaption}\item[{std\+::string}]{origem,  }\item[{std\+::string}]{destino,  }\item[{\hyperlink{structdata__struct}{data\+\_\+struct}}]{dt,  }\item[{\hyperlink{structtempo}{tempo}}]{horas }\end{DoxyParamCaption})}
+
+Constructor de um \hyperlink{class_servico}{Servico} (viagem)
+
+
+\begin{DoxyParams}{Parameters}
+{\em origem,destino,dt,horas} & constroi um servico, podendo ser definidos nao so a origem e o destino tal como a data e horas \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_servico_aef61103b440f1836564e82ba17999ff2}{}\label{class_servico_aef61103b440f1836564e82ba17999ff2} 
+\index{Servico@{Servico}!get\+Data@{get\+Data}}
+\index{get\+Data@{get\+Data}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{get\+Data()}{getData()}}
+{\footnotesize\ttfamily \hyperlink{structdata__struct}{data\+\_\+struct} Servico\+::get\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Retorna a data de um \hyperlink{class_servico}{Servico}
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{structdata__struct}{data\+\_\+struct} 
+\end{DoxyReturn}
+\hypertarget{class_servico_af35c95d3aea91550c261110d236fe557}{}\label{class_servico_af35c95d3aea91550c261110d236fe557} 
+\index{Servico@{Servico}!get\+Default\+Id@{get\+Default\+Id}}
+\index{get\+Default\+Id@{get\+Default\+Id}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{get\+Default\+Id()}{getDefaultId()}}
+{\footnotesize\ttfamily unsigned int Servico\+::get\+Default\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+obtem o id de um servico
+
+\begin{DoxyReturn}{Returns}
+default\+\_\+id 
+\end{DoxyReturn}
+\hypertarget{class_servico_a139c67d63bce1723bf9bd1db05cbcc31}{}\label{class_servico_a139c67d63bce1723bf9bd1db05cbcc31} 
+\index{Servico@{Servico}!get\+Default\+Valor@{get\+Default\+Valor}}
+\index{get\+Default\+Valor@{get\+Default\+Valor}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{get\+Default\+Valor()}{getDefaultValor()}}
+{\footnotesize\ttfamily float Servico\+::get\+Default\+Valor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+obtem o valor de um servico
+
+\begin{DoxyReturn}{Returns}
+default\+\_\+valor 
+\end{DoxyReturn}
+\hypertarget{class_servico_a715e7c0bf6aa2479930b16ad023b2691}{}\label{class_servico_a715e7c0bf6aa2479930b16ad023b2691} 
+\index{Servico@{Servico}!get\+Destino@{get\+Destino}}
+\index{get\+Destino@{get\+Destino}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{get\+Destino()}{getDestino()}}
+{\footnotesize\ttfamily std\+::string Servico\+::get\+Destino (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+retorna uma string que representa o destino de um \hyperlink{class_servico}{Servico}
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\hypertarget{class_servico_a60e091f3c66a19a2def89e31638aadb4}{}\label{class_servico_a60e091f3c66a19a2def89e31638aadb4} 
+\index{Servico@{Servico}!get\+Estado@{get\+Estado}}
+\index{get\+Estado@{get\+Estado}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{get\+Estado()}{getEstado()}}
+{\footnotesize\ttfamily bool Servico\+::get\+Estado (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Retorna o esstado de um servico (pago ou por pagar)
+
+\begin{DoxyReturn}{Returns}
+estado 
+\end{DoxyReturn}
+\hypertarget{class_servico_a376dc1a7619fce4be391b7f74a17c4df}{}\label{class_servico_a376dc1a7619fce4be391b7f74a17c4df} 
+\index{Servico@{Servico}!get\+Fim\+Periodo\+Transito@{get\+Fim\+Periodo\+Transito}}
+\index{get\+Fim\+Periodo\+Transito@{get\+Fim\+Periodo\+Transito}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{get\+Fim\+Periodo\+Transito()}{getFimPeriodoTransito()}}
+{\footnotesize\ttfamily \hyperlink{structtempo}{tempo} Servico\+::get\+Fim\+Periodo\+Transito (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+obtem o fim do periodo de maior transico
+
+\begin{DoxyReturn}{Returns}
+tempo 
+\end{DoxyReturn}
+\hypertarget{class_servico_aa2300b7df851d1364c1169b319902ec7}{}\label{class_servico_aa2300b7df851d1364c1169b319902ec7} 
+\index{Servico@{Servico}!get\+Horas@{get\+Horas}}
+\index{get\+Horas@{get\+Horas}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{get\+Horas()}{getHoras()}}
+{\footnotesize\ttfamily \hyperlink{structtempo}{tempo} Servico\+::get\+Horas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Retorna as horas de um \hyperlink{class_servico}{Servico}
+
+\begin{DoxyReturn}{Returns}
+tempo 
+\end{DoxyReturn}
+\hypertarget{class_servico_a9d988317886813534139f10a1ff9f7e9}{}\label{class_servico_a9d988317886813534139f10a1ff9f7e9} 
+\index{Servico@{Servico}!get\+Id@{get\+Id}}
+\index{get\+Id@{get\+Id}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{get\+Id()}{getId()}}
+{\footnotesize\ttfamily unsigned int Servico\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+retorna o Id de um Servicod
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_servico_a558609d8ad7788077ae862d6310b4749}{}\label{class_servico_a558609d8ad7788077ae862d6310b4749} 
+\index{Servico@{Servico}!get\+Imposto\+Transito@{get\+Imposto\+Transito}}
+\index{get\+Imposto\+Transito@{get\+Imposto\+Transito}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{get\+Imposto\+Transito()}{getImpostoTransito()}}
+{\footnotesize\ttfamily float Servico\+::get\+Imposto\+Transito (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+obtem o imposto sobre servico devido a hora de maior transito
+
+\begin{DoxyReturn}{Returns}
+tempo 
+\end{DoxyReturn}
+\hypertarget{class_servico_aeff1f2a4fa64195ddae2beb02456ac2b}{}\label{class_servico_aeff1f2a4fa64195ddae2beb02456ac2b} 
+\index{Servico@{Servico}!get\+Informacao@{get\+Informacao}}
+\index{get\+Informacao@{get\+Informacao}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{get\+Informacao()}{getInformacao()}}
+{\footnotesize\ttfamily std\+::string Servico\+::get\+Informacao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+retorna uma string ja formatada com todas as informacoes relativas a um \hyperlink{class_servico}{Servico}
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\hypertarget{class_servico_a69298e17de982c6e78ce1bd73913bf65}{}\label{class_servico_a69298e17de982c6e78ce1bd73913bf65} 
+\index{Servico@{Servico}!get\+Inicio\+Periodo\+Transito@{get\+Inicio\+Periodo\+Transito}}
+\index{get\+Inicio\+Periodo\+Transito@{get\+Inicio\+Periodo\+Transito}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{get\+Inicio\+Periodo\+Transito()}{getInicioPeriodoTransito()}}
+{\footnotesize\ttfamily \hyperlink{structtempo}{tempo} Servico\+::get\+Inicio\+Periodo\+Transito (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+obtem o inicio do periodo de maior transico
+
+\begin{DoxyReturn}{Returns}
+tempo 
+\end{DoxyReturn}
+\hypertarget{class_servico_a55bffcfc2f93d1b2b2668e229d23027c}{}\label{class_servico_a55bffcfc2f93d1b2b2668e229d23027c} 
+\index{Servico@{Servico}!get\+N\+IF@{get\+N\+IF}}
+\index{get\+N\+IF@{get\+N\+IF}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{get\+N\+I\+F()}{getNIF()}}
+{\footnotesize\ttfamily unsigned int Servico\+::get\+N\+IF (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+´\+Devolve o N\+IF do cliente qeu pagou o \hyperlink{class_servico}{Servico}
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\hypertarget{class_servico_a94a8edb640edc76aa7b7af9081fc2fd0}{}\label{class_servico_a94a8edb640edc76aa7b7af9081fc2fd0} 
+\index{Servico@{Servico}!get\+Origem@{get\+Origem}}
+\index{get\+Origem@{get\+Origem}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{get\+Origem()}{getOrigem()}}
+{\footnotesize\ttfamily std\+::string Servico\+::get\+Origem (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Retorna uma string que representa a origem de um Ser ico
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\hypertarget{class_servico_ad383b4f4056f5b7d3fc82e95675c557e}{}\label{class_servico_ad383b4f4056f5b7d3fc82e95675c557e} 
+\index{Servico@{Servico}!get\+Valor@{get\+Valor}}
+\index{get\+Valor@{get\+Valor}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{get\+Valor()}{getValor()}}
+{\footnotesize\ttfamily float Servico\+::get\+Valor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+retorna i valor de um \hyperlink{class_servico}{Servico}
+
+\begin{DoxyReturn}{Returns}
+float 
+\end{DoxyReturn}
+\hypertarget{class_servico_a10923a60963d5aac9d0dcd44270efc04}{}\label{class_servico_a10923a60963d5aac9d0dcd44270efc04} 
+\index{Servico@{Servico}!operator==@{operator==}}
+\index{operator==@{operator==}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Servico\+::operator== (\begin{DoxyParamCaption}\item[{const \hyperlink{class_servico}{Servico} \&}]{serv }\end{DoxyParamCaption}) const}
+
+operador== para a classe \hyperlink{class_servico}{Servico} \hypertarget{class_servico_a2cfccaa3cc56733e9d774c5e61bb1a65}{}\label{class_servico_a2cfccaa3cc56733e9d774c5e61bb1a65} 
+\index{Servico@{Servico}!set\+Data@{set\+Data}}
+\index{set\+Data@{set\+Data}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{set\+Data()}{setData()}}
+{\footnotesize\ttfamily void Servico\+::set\+Data (\begin{DoxyParamCaption}\item[{\hyperlink{structdata__struct}{data\+\_\+struct}}]{dt }\end{DoxyParamCaption})}
+
+define a data de um \hyperlink{class_servico}{Servico}
+
+
+\begin{DoxyParams}{Parameters}
+{\em dt} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_servico_ada5fab814c216f9640fa0eebdd04ab77}{}\label{class_servico_ada5fab814c216f9640fa0eebdd04ab77} 
+\index{Servico@{Servico}!set\+Destino@{set\+Destino}}
+\index{set\+Destino@{set\+Destino}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{set\+Destino()}{setDestino()}}
+{\footnotesize\ttfamily void Servico\+::set\+Destino (\begin{DoxyParamCaption}\item[{std\+::string}]{destino }\end{DoxyParamCaption})}
+
+define o destino de um \hyperlink{class_servico}{Servico}
+
+
+\begin{DoxyParams}{Parameters}
+{\em destino} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_servico_afecbce44254ae95759509bdbca5e295d}{}\label{class_servico_afecbce44254ae95759509bdbca5e295d} 
+\index{Servico@{Servico}!set\+Horas@{set\+Horas}}
+\index{set\+Horas@{set\+Horas}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{set\+Horas()}{setHoras()}}
+{\footnotesize\ttfamily void Servico\+::set\+Horas (\begin{DoxyParamCaption}\item[{\hyperlink{structtempo}{tempo}}]{horas }\end{DoxyParamCaption})}
+
+define as horas de um \hyperlink{class_servico}{Servico}
+
+
+\begin{DoxyParams}{Parameters}
+{\em origem,destino} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_servico_a93662abf01c760893411311ef1f8c1e3}{}\label{class_servico_a93662abf01c760893411311ef1f8c1e3} 
+\index{Servico@{Servico}!set\+Imposto\+Transito@{set\+Imposto\+Transito}}
+\index{set\+Imposto\+Transito@{set\+Imposto\+Transito}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{set\+Imposto\+Transito()}{setImpostoTransito()}}
+{\footnotesize\ttfamily void Servico\+::set\+Imposto\+Transito (\begin{DoxyParamCaption}\item[{float}]{imposto }\end{DoxyParamCaption})}
+
+define o imposto sobre servico devido a maior hora de transito
+
+
+\begin{DoxyParams}{Parameters}
+{\em imposto} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_servico_afeaa97aa17a512532433735450abdec3}{}\label{class_servico_afeaa97aa17a512532433735450abdec3} 
+\index{Servico@{Servico}!set\+N\+IF@{set\+N\+IF}}
+\index{set\+N\+IF@{set\+N\+IF}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{set\+N\+I\+F()}{setNIF()}}
+{\footnotesize\ttfamily void Servico\+::set\+N\+IF (\begin{DoxyParamCaption}\item[{unsigned int}]{N\+IF }\end{DoxyParamCaption})}
+
+coloca o estado do \hyperlink{class_servico}{Servico} como \char`\"{}pago\char`\"{} \hypertarget{class_servico_a0dd5e506d6388538e9da079e20bf7800}{}\label{class_servico_a0dd5e506d6388538e9da079e20bf7800} 
+\index{Servico@{Servico}!set\+Origem@{set\+Origem}}
+\index{set\+Origem@{set\+Origem}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{set\+Origem()}{setOrigem()}}
+{\footnotesize\ttfamily void Servico\+::set\+Origem (\begin{DoxyParamCaption}\item[{std\+::string}]{origem }\end{DoxyParamCaption})}
+
+define a origem de um \hyperlink{class_servico}{Servico}
+
+
+\begin{DoxyParams}{Parameters}
+{\em origem} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_servico_ad51a5b61535715cd6ab8419898fcffce}{}\label{class_servico_ad51a5b61535715cd6ab8419898fcffce} 
+\index{Servico@{Servico}!set\+Pago@{set\+Pago}}
+\index{set\+Pago@{set\+Pago}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{set\+Pago()}{setPago()}}
+{\footnotesize\ttfamily void Servico\+::set\+Pago (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+coloca o estado do \hyperlink{class_servico}{Servico} como \char`\"{}pago\char`\"{} \hypertarget{class_servico_a5c008406c514cdc7ed075f5e6cedb3d0}{}\label{class_servico_a5c008406c514cdc7ed075f5e6cedb3d0} 
+\index{Servico@{Servico}!set\+Periodo\+Transito@{set\+Periodo\+Transito}}
+\index{set\+Periodo\+Transito@{set\+Periodo\+Transito}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{set\+Periodo\+Transito()}{setPeriodoTransito()}}
+{\footnotesize\ttfamily void Servico\+::set\+Periodo\+Transito (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+define o periodo de maior transito \hypertarget{class_servico_aa9c028f4ffe178768365ea55e7051293}{}\label{class_servico_aa9c028f4ffe178768365ea55e7051293} 
+\index{Servico@{Servico}!set\+Tipo\+Pagamento@{set\+Tipo\+Pagamento}}
+\index{set\+Tipo\+Pagamento@{set\+Tipo\+Pagamento}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{set\+Tipo\+Pagamento()}{setTipoPagamento()}}
+{\footnotesize\ttfamily void Servico\+::set\+Tipo\+Pagamento (\begin{DoxyParamCaption}\item[{std\+::string}]{tipo }\end{DoxyParamCaption})}
+
+define o tipo de pagamento de um servico \hypertarget{class_servico_ad349510a77b1b2176f0a558b52dc78ce}{}\label{class_servico_ad349510a77b1b2176f0a558b52dc78ce} 
+\index{Servico@{Servico}!set\+Valor@{set\+Valor}}
+\index{set\+Valor@{set\+Valor}!Servico@{Servico}}
+\subsubsection{\texorpdfstring{set\+Valor()}{setValor()}}
+{\footnotesize\ttfamily void Servico\+::set\+Valor (\begin{DoxyParamCaption}\item[{float}]{valor }\end{DoxyParamCaption})}
+
+define o valor de um \hyperlink{class_servico}{Servico}
+
+@ valor 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+User\+Candido/\+Desktop/\+Eclipse A\+E\+D\+A/\+C\+A\+L/\+Taxis 2/src/Servico.\+h\item 
+C\+:/\+Users/\+User\+Candido/\+Desktop/\+Eclipse A\+E\+D\+A/\+C\+A\+L/\+Taxis 2/src/Servico.\+cpp\end{DoxyCompactItemize}

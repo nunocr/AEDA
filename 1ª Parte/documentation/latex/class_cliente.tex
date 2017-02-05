@@ -1,0 +1,166 @@
+\hypertarget{class_cliente}{}\section{Cliente Class Reference}
+\label{class_cliente}\index{Cliente@{Cliente}}
+Inheritance diagram for Cliente\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_cliente}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_cliente_a5957c05b3d3594a7cbd8c088486d14ae}{Cliente} (const std\+::string nome, const std\+::string morada, const unsigned int N\+IF)
+\item 
+\hyperlink{class_cliente_a030699a841488d4b3dfbedf75834e002}{Cliente} (const std\+::string nome, const std\+::string morada)
+\item 
+\hyperlink{class_cliente_a17e05e34ce319b738fb68c53e4ded2c3}{Cliente} (std\+::string nome)
+\item 
+\hypertarget{class_cliente_a7972b72a8288e5dee92b30579017c549}{}\label{class_cliente_a7972b72a8288e5dee92b30579017c549} 
+bool {\bfseries operator==} (const \hyperlink{class_cliente}{Cliente} \&cli) const
+\item 
+\hypertarget{class_cliente_aa1c8490c22c31b6c7ccdb794cadc866d}{}\label{class_cliente_aa1c8490c22c31b6c7ccdb794cadc866d} 
+bool {\bfseries operator$<$} (const \hyperlink{class_cliente}{Cliente} \&cli) const
+\item 
+void \hyperlink{class_cliente_a3aa84b64135b106669724fc08b7cc91f}{operator=} (const \hyperlink{class_cliente}{Cliente} \&cli)
+\item 
+\hypertarget{class_cliente_abfd45b8b07a8549fe4761d00c76a43c3}{}\label{class_cliente_abfd45b8b07a8549fe4761d00c76a43c3} 
+std\+::string {\bfseries get\+Nome} () const
+\item 
+\hypertarget{class_cliente_af73bfd0b9fc0f7facf4f6d9acbe757b1}{}\label{class_cliente_af73bfd0b9fc0f7facf4f6d9acbe757b1} 
+std\+::string {\bfseries get\+Morada} () const
+\item 
+\hypertarget{class_cliente_a8dedf04f5520b5849ecd70a1c4d07a86}{}\label{class_cliente_a8dedf04f5520b5849ecd70a1c4d07a86} 
+unsigned int {\bfseries get\+N\+IF} () const
+\item 
+virtual std\+::string \hyperlink{class_cliente_a932ef71b2792dc5df153f82d3e81a6f3}{get\+Informacao} () const
+\item 
+\hypertarget{class_cliente_a6f69591975dd6db60d61da4744a61d95}{}\label{class_cliente_a6f69591975dd6db60d61da4744a61d95} 
+void {\bfseries set\+Nome} (std\+::string nome)
+\item 
+\hypertarget{class_cliente_ac153d8134504564bb599d47611cd7726}{}\label{class_cliente_ac153d8134504564bb599d47611cd7726} 
+void {\bfseries set\+Morada} (std\+::string morada)
+\item 
+\hypertarget{class_cliente_a203e0f379622d73f1f58f2d650233a8d}{}\label{class_cliente_a203e0f379622d73f1f58f2d650233a8d} 
+void {\bfseries set\+N\+IF} (unsigned int N\+IF)
+\item 
+virtual bool \hyperlink{class_cliente_a68646846a80de5cdcb61b1f8a13e4fb8}{pagamento\+Numerario} (\hyperlink{class_servico}{Servico} \&serv)
+\item 
+virtual bool \hyperlink{class_cliente_a6e230e5e512bebe07bfa1ad6750b8cee}{pagamento\+Multibanco} (\hyperlink{class_servico}{Servico} \&serv)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_cliente_aaa79b0a26f7d5d007fe4ae9696564ca5}{}\label{class_cliente_aaa79b0a26f7d5d007fe4ae9696564ca5} 
+std\+::string {\bfseries nome}
+\item 
+\hypertarget{class_cliente_a24ba6895be9bdf5112e9e67a34d13704}{}\label{class_cliente_a24ba6895be9bdf5112e9e67a34d13704} 
+std\+::string {\bfseries morada}
+\item 
+\hypertarget{class_cliente_a7a012a7819f17eb18a9580fe32723aeb}{}\label{class_cliente_a7a012a7819f17eb18a9580fe32723aeb} 
+unsigned int {\bfseries N\+IF}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_cliente_a5957c05b3d3594a7cbd8c088486d14ae}{}\label{class_cliente_a5957c05b3d3594a7cbd8c088486d14ae} 
+\index{Cliente@{Cliente}!Cliente@{Cliente}}
+\index{Cliente@{Cliente}!Cliente@{Cliente}}
+\subsubsection{\texorpdfstring{Cliente()}{Cliente()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Cliente\+::\+Cliente (\begin{DoxyParamCaption}\item[{const std\+::string}]{nome,  }\item[{const std\+::string}]{morada,  }\item[{const unsigned int}]{N\+IF }\end{DoxyParamCaption})}
+
+Constructor de clienete 
+\begin{DoxyParams}{Parameters}
+{\em nome,morada,N\+IF} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_cliente_a030699a841488d4b3dfbedf75834e002}{}\label{class_cliente_a030699a841488d4b3dfbedf75834e002} 
+\index{Cliente@{Cliente}!Cliente@{Cliente}}
+\index{Cliente@{Cliente}!Cliente@{Cliente}}
+\subsubsection{\texorpdfstring{Cliente()}{Cliente()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Cliente\+::\+Cliente (\begin{DoxyParamCaption}\item[{const std\+::string}]{nome,  }\item[{const std\+::string}]{morada }\end{DoxyParamCaption})}
+
+Constructor de clienete 
+\begin{DoxyParams}{Parameters}
+{\em nome,morada} & pode ser usado para clientes nao registados \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_cliente_a17e05e34ce319b738fb68c53e4ded2c3}{}\label{class_cliente_a17e05e34ce319b738fb68c53e4ded2c3} 
+\index{Cliente@{Cliente}!Cliente@{Cliente}}
+\index{Cliente@{Cliente}!Cliente@{Cliente}}
+\subsubsection{\texorpdfstring{Cliente()}{Cliente()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Cliente\+::\+Cliente (\begin{DoxyParamCaption}\item[{std\+::string}]{nome }\end{DoxyParamCaption})}
+
+Constructor de clienete 
+\begin{DoxyParams}{Parameters}
+{\em nome} & pode ser usado para clientes nao registados \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_cliente_a932ef71b2792dc5df153f82d3e81a6f3}{}\label{class_cliente_a932ef71b2792dc5df153f82d3e81a6f3} 
+\index{Cliente@{Cliente}!get\+Informacao@{get\+Informacao}}
+\index{get\+Informacao@{get\+Informacao}!Cliente@{Cliente}}
+\subsubsection{\texorpdfstring{get\+Informacao()}{getInformacao()}}
+{\footnotesize\ttfamily std\+::string Cliente\+::get\+Informacao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Informacao relativa a um cliente
+
+\begin{DoxyReturn}{Returns}
+uma string com a morada, nome e N\+IF de um cliente, ja formatadoa 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{class_particular_acde85dcb3d26ca3afe131fb4c35763c8}{Particular}, \hyperlink{class_empresarial_a28090b6b3db16b6b7ba03d6308c2c309}{Empresarial}, and \hyperlink{class_registado_a7017f0d74afd44459c3d6affcb303d52}{Registado}.
+
+\hypertarget{class_cliente_a3aa84b64135b106669724fc08b7cc91f}{}\label{class_cliente_a3aa84b64135b106669724fc08b7cc91f} 
+\index{Cliente@{Cliente}!operator=@{operator=}}
+\index{operator=@{operator=}!Cliente@{Cliente}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily void Cliente\+::operator= (\begin{DoxyParamCaption}\item[{const \hyperlink{class_cliente}{Cliente} \&}]{cli }\end{DoxyParamCaption})}
+
+Operator =
+
+
+\begin{DoxyParams}{Parameters}
+{\em cli} & iguala o nome e a morada de um cliente ao nome e morada de outro cliente \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_cliente_a6e230e5e512bebe07bfa1ad6750b8cee}{}\label{class_cliente_a6e230e5e512bebe07bfa1ad6750b8cee} 
+\index{Cliente@{Cliente}!pagamento\+Multibanco@{pagamento\+Multibanco}}
+\index{pagamento\+Multibanco@{pagamento\+Multibanco}!Cliente@{Cliente}}
+\subsubsection{\texorpdfstring{pagamento\+Multibanco()}{pagamentoMultibanco()}}
+{\footnotesize\ttfamily bool Cliente\+::pagamento\+Multibanco (\begin{DoxyParamCaption}\item[{\hyperlink{class_servico}{Servico} \&}]{serv }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Constructor de clienete 
+\begin{DoxyParams}{Parameters}
+{\em nome,morada,N\+IF} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_registado_a36be4ccf8e4b1bc26be7c1c2d4612229}{Registado}.
+
+\hypertarget{class_cliente_a68646846a80de5cdcb61b1f8a13e4fb8}{}\label{class_cliente_a68646846a80de5cdcb61b1f8a13e4fb8} 
+\index{Cliente@{Cliente}!pagamento\+Numerario@{pagamento\+Numerario}}
+\index{pagamento\+Numerario@{pagamento\+Numerario}!Cliente@{Cliente}}
+\subsubsection{\texorpdfstring{pagamento\+Numerario()}{pagamentoNumerario()}}
+{\footnotesize\ttfamily bool Cliente\+::pagamento\+Numerario (\begin{DoxyParamCaption}\item[{\hyperlink{class_servico}{Servico} \&}]{serv }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Pagamento de um servico em numerario
+
+
+\begin{DoxyParams}{Parameters}
+{\em serv} & efectua o pagamento do servico lancado como argumento pelo metodo de numerario atribui ao N\+IF do servico o N\+IF do cliente que o pagou, para ser guardado na empresa \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_registado_af3c8f63f7df1cdfd27e44126f78b71d8}{Registado}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+User\+Candido/\+Desktop/\+Eclipse A\+E\+D\+A/\+C\+A\+L/\+Taxis 2/src/Cliente.\+h\item 
+C\+:/\+Users/\+User\+Candido/\+Desktop/\+Eclipse A\+E\+D\+A/\+C\+A\+L/\+Taxis 2/src/Cliente.\+cpp\end{DoxyCompactItemize}

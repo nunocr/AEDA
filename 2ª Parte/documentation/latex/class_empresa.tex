@@ -1,0 +1,193 @@
+\hypertarget{class_empresa}{}\section{Empresa Class Reference}
+\label{class_empresa}\index{Empresa@{Empresa}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_empresa_a246d93027070baa8adfd65d16aa4199d}\label{class_empresa_a246d93027070baa8adfd65d16aa4199d}} 
+{\bfseries Empresa} (std\+::string nome)
+\item 
+\mbox{\Hypertarget{class_empresa_a84deac5a4a2151c58759f89167a45124}\label{class_empresa_a84deac5a4a2151c58759f89167a45124}} 
+{\bfseries Empresa} (std\+::string nome, std\+::string morada)
+\item 
+\mbox{\Hypertarget{class_empresa_a7c9543608b1bc26bab8f4ad8c6d28128}\label{class_empresa_a7c9543608b1bc26bab8f4ad8c6d28128}} 
+void {\bfseries set\+Nome} (std\+::string nome)
+\item 
+\mbox{\Hypertarget{class_empresa_a5bd86d8ec03de652cfd11797de5bbe22}\label{class_empresa_a5bd86d8ec03de652cfd11797de5bbe22}} 
+void {\bfseries set\+Morada} (std\+::string morada)
+\item 
+\mbox{\Hypertarget{class_empresa_ae917f6b8a8be9316e1dd553b2ccb6332}\label{class_empresa_ae917f6b8a8be9316e1dd553b2ccb6332}} 
+std\+::string {\bfseries get\+Nome} () const
+\item 
+\mbox{\Hypertarget{class_empresa_a4ba5753ee333e062a47615b0a2c442c2}\label{class_empresa_a4ba5753ee333e062a47615b0a2c442c2}} 
+std\+::string {\bfseries get\+Morada} () const
+\item 
+\mbox{\Hypertarget{class_empresa_a7625bb6835dec408801b92e0f6ae89bb}\label{class_empresa_a7625bb6835dec408801b92e0f6ae89bb}} 
+std\+::vector$<$ \hyperlink{class_registado}{Registado} $\ast$ $>$ {\bfseries get\+Registados} () const
+\item 
+\mbox{\Hypertarget{class_empresa_a35b2ad7ce666b30d99edd10c691b335a}\label{class_empresa_a35b2ad7ce666b30d99edd10c691b335a}} 
+\hyperlink{class_registado}{Registado} $\ast$ {\bfseries get\+Registado\+By\+N\+IF} (unsigned int N\+IF) const
+\item 
+\mbox{\Hypertarget{class_empresa_a6057325975eae633f66ba2504ac8dd09}\label{class_empresa_a6057325975eae633f66ba2504ac8dd09}} 
+\hyperlink{class_servico}{Servico} $\ast$ {\bfseries get\+Servico\+By\+ID} (unsigned int serv\+ID) const
+\item 
+\mbox{\Hypertarget{class_empresa_ae9df2a1a1d8bf2ac64d08a88a13f0c5f}\label{class_empresa_ae9df2a1a1d8bf2ac64d08a88a13f0c5f}} 
+bool {\bfseries adiciona\+Cliente} (\hyperlink{class_registado}{Registado} $\ast$cli)
+\item 
+\mbox{\Hypertarget{class_empresa_aec387d18fb6dc010738c5d878cff1645}\label{class_empresa_aec387d18fb6dc010738c5d878cff1645}} 
+bool {\bfseries remove\+Cliente} (\hyperlink{class_registado}{Registado} $\ast$cli)
+\item 
+\mbox{\Hypertarget{class_empresa_ad92331511c58763afed45f668421454c}\label{class_empresa_ad92331511c58763afed45f668421454c}} 
+bool {\bfseries remove\+Cliente} (unsigned int N\+IF)
+\item 
+\mbox{\Hypertarget{class_empresa_a1f97b7763f0d4977192713a6350d45c4}\label{class_empresa_a1f97b7763f0d4977192713a6350d45c4}} 
+std\+::vector$<$ \hyperlink{class_servico}{Servico} $\ast$ $>$ {\bfseries get\+Historico} () const
+\item 
+\mbox{\Hypertarget{class_empresa_a31c9add956cf208592c82e600389ebec}\label{class_empresa_a31c9add956cf208592c82e600389ebec}} 
+std\+::string {\bfseries get\+Informacao} () const
+\item 
+\mbox{\Hypertarget{class_empresa_a3a0b6dad40b7f05fede47be28dfc024d}\label{class_empresa_a3a0b6dad40b7f05fede47be28dfc024d}} 
+std\+::string {\bfseries get\+Informacao\+Servicos} () const
+\item 
+\mbox{\Hypertarget{class_empresa_a670edd3a8103ef4136a5d59054018278}\label{class_empresa_a670edd3a8103ef4136a5d59054018278}} 
+std\+::string {\bfseries get\+N\+I\+Fs\+Clientes} () const
+\item 
+\mbox{\Hypertarget{class_empresa_a601351adee76c9258438f841a41c5eaa}\label{class_empresa_a601351adee76c9258438f841a41c5eaa}} 
+std\+::string {\bfseries get\+I\+Ds\+Servicos} () const
+\item 
+\mbox{\Hypertarget{class_empresa_af40fde81230d4c58c678c3bfb6b1b35b}\label{class_empresa_af40fde81230d4c58c678c3bfb6b1b35b}} 
+std\+::string {\bfseries get\+Servicos\+By\+Cliente} (unsigned int N\+IF) const
+\item 
+\mbox{\Hypertarget{class_empresa_ae7e7f8be439aa63d7c6b174818260e32}\label{class_empresa_ae7e7f8be439aa63d7c6b174818260e32}} 
+bool {\bfseries adiciona\+Servico\+Cliente} (\hyperlink{class_servico}{Servico} $\ast$serv, unsigned int N\+IF)
+\item 
+\mbox{\Hypertarget{class_empresa_a17638d7cbc03ab5f6e0a4a57bb99ca56}\label{class_empresa_a17638d7cbc03ab5f6e0a4a57bb99ca56}} 
+bool {\bfseries servico\+Rapido} (\hyperlink{class_servico}{Servico} $\ast$serv, \hyperlink{class_cliente}{Cliente} $\ast$cli, std\+::string metodo\+\_\+pagamento)
+\item 
+\mbox{\Hypertarget{class_empresa_a1ea3f3759f3377ba18c974b21254c8e6}\label{class_empresa_a1ea3f3759f3377ba18c974b21254c8e6}} 
+bool {\bfseries pagamento\+Servico\+Cliente} (unsigned int N\+IF)
+\item 
+\mbox{\Hypertarget{class_empresa_a27262bddd41ff48b0585e05ef600e9fe}\label{class_empresa_a27262bddd41ff48b0585e05ef600e9fe}} 
+bool {\bfseries set\+Nome\+Servico} (std\+::string nome, unsigned int serv\+ID)
+\item 
+\hyperlink{class_b_s_t}{B\+ST}$<$ \hyperlink{class_servico_pointer}{Servico\+Pointer} $\ast$ $>$ \hyperlink{class_empresa_a1515dc722b64eab75b9d7a37ddd7863b}{get\+Arvore\+Servicos} () const
+\begin{DoxyCompactList}\small\item\em retorna \hyperlink{class_b_s_t}{B\+ST} de servicos da empresa \end{DoxyCompactList}\item 
+bool \hyperlink{class_empresa_a7f40b739ea88afe971c3a52d520d708a}{add\+Servico\+B\+ST} (\hyperlink{class_servico}{Servico} $\ast$serv)
+\begin{DoxyCompactList}\small\item\em adiciona um servico a \hyperlink{class_b_s_t}{B\+ST} de servicos da empresa /$\ast$ \end{DoxyCompactList}\item 
+void \hyperlink{class_empresa_a7e760a09feabb76e7ab0b121be61be4a}{print\+Arvore\+Servicos} () const
+\begin{DoxyCompactList}\small\item\em imprime informacao sobre a \hyperlink{class_b_s_t}{B\+ST} de servicos da empresa \end{DoxyCompactList}\item 
+void \hyperlink{class_empresa_a218427b819a92be11e5f1c808dcd3153}{update\+Arvore\+Servicos} ()
+\begin{DoxyCompactList}\small\item\em atualiza \hyperlink{class_b_s_t}{B\+ST} de servicos da empresa \end{DoxyCompactList}\item 
+tab\+H\+Cliente \hyperlink{class_empresa_aeb8ed69f2ec85275de6372e18a8945db}{get\+Tabela\+Clientes\+Inativos} () const
+\begin{DoxyCompactList}\small\item\em retorna hash table de clientes inativos da empresa \end{DoxyCompactList}\item 
+void \hyperlink{class_empresa_a232b5da45afd7aad19ab503210b0c922}{print\+Tabela\+Clientes\+Inativos} () const
+\begin{DoxyCompactList}\small\item\em imprime informacao relativa a hash table de clientes inativos da empresa \end{DoxyCompactList}\item 
+bool \hyperlink{class_empresa_a99f0d3892ad29e4c44e72f14189c4388}{update\+Tabela\+Clientes\+Inativos} ()
+\begin{DoxyCompactList}\small\item\em atualiza hash table de clientes inativos da empresa \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_empresa_affa32f93b722be794531dbfb26cb19b3}\label{class_empresa_affa32f93b722be794531dbfb26cb19b3}} 
+std\+::string {\bfseries nome}
+\item 
+\mbox{\Hypertarget{class_empresa_a73cf106d1c427875d58d7adc0ff298e8}\label{class_empresa_a73cf106d1c427875d58d7adc0ff298e8}} 
+std\+::string {\bfseries morada}
+\item 
+\mbox{\Hypertarget{class_empresa_aed45bb351ecd8503398d43c7da1487f8}\label{class_empresa_aed45bb351ecd8503398d43c7da1487f8}} 
+std\+::vector$<$ \hyperlink{class_registado}{Registado} $\ast$ $>$ {\bfseries clientes}
+\item 
+\mbox{\Hypertarget{class_empresa_ae8b0f4fece7e5c01d136ab79418f728b}\label{class_empresa_ae8b0f4fece7e5c01d136ab79418f728b}} 
+std\+::vector$<$ \hyperlink{class_servico}{Servico} $\ast$ $>$ {\bfseries historico}
+\item 
+\mbox{\Hypertarget{class_empresa_ae7a1dd04902ed33525db1c6400cade59}\label{class_empresa_ae7a1dd04902ed33525db1c6400cade59}} 
+\hyperlink{class_b_s_t}{B\+ST}$<$ \hyperlink{class_servico_pointer}{Servico\+Pointer} $\ast$ $>$ {\bfseries arvore\+\_\+servicos}
+\item 
+\mbox{\Hypertarget{class_empresa_a8d9511b3a8b0031f1819a15705b2e4a6}\label{class_empresa_a8d9511b3a8b0031f1819a15705b2e4a6}} 
+tab\+H\+Cliente {\bfseries tabela\+\_\+clientes\+\_\+inativos}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_empresa_a7f40b739ea88afe971c3a52d520d708a}\label{class_empresa_a7f40b739ea88afe971c3a52d520d708a}} 
+\index{Empresa@{Empresa}!add\+Servico\+B\+ST@{add\+Servico\+B\+ST}}
+\index{add\+Servico\+B\+ST@{add\+Servico\+B\+ST}!Empresa@{Empresa}}
+\subsubsection{\texorpdfstring{add\+Servico\+B\+S\+T()}{addServicoBST()}}
+{\footnotesize\ttfamily bool Empresa\+::add\+Servico\+B\+ST (\begin{DoxyParamCaption}\item[{\hyperlink{class_servico}{Servico} $\ast$}]{serv }\end{DoxyParamCaption})}
+
+
+
+adiciona um servico a \hyperlink{class_b_s_t}{B\+ST} de servicos da empresa /$\ast$ 
+
+/$\ast$ 
+\begin{DoxyParams}{Parameters}
+{\em serv} & servico a adicionar a \hyperlink{class_b_s_t}{B\+ST} /$\ast$ \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true em caso de sucesso, false em caso de insucesso 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_empresa_a1515dc722b64eab75b9d7a37ddd7863b}\label{class_empresa_a1515dc722b64eab75b9d7a37ddd7863b}} 
+\index{Empresa@{Empresa}!get\+Arvore\+Servicos@{get\+Arvore\+Servicos}}
+\index{get\+Arvore\+Servicos@{get\+Arvore\+Servicos}!Empresa@{Empresa}}
+\subsubsection{\texorpdfstring{get\+Arvore\+Servicos()}{getArvoreServicos()}}
+{\footnotesize\ttfamily \hyperlink{class_b_s_t}{B\+ST}$<$ \hyperlink{class_servico_pointer}{Servico\+Pointer} $\ast$ $>$ Empresa\+::get\+Arvore\+Servicos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+retorna \hyperlink{class_b_s_t}{B\+ST} de servicos da empresa 
+
+/$\ast$ \mbox{\Hypertarget{class_empresa_aeb8ed69f2ec85275de6372e18a8945db}\label{class_empresa_aeb8ed69f2ec85275de6372e18a8945db}} 
+\index{Empresa@{Empresa}!get\+Tabela\+Clientes\+Inativos@{get\+Tabela\+Clientes\+Inativos}}
+\index{get\+Tabela\+Clientes\+Inativos@{get\+Tabela\+Clientes\+Inativos}!Empresa@{Empresa}}
+\subsubsection{\texorpdfstring{get\+Tabela\+Clientes\+Inativos()}{getTabelaClientesInativos()}}
+{\footnotesize\ttfamily tab\+H\+Cliente Empresa\+::get\+Tabela\+Clientes\+Inativos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+retorna hash table de clientes inativos da empresa 
+
+/$\ast$ \mbox{\Hypertarget{class_empresa_a7e760a09feabb76e7ab0b121be61be4a}\label{class_empresa_a7e760a09feabb76e7ab0b121be61be4a}} 
+\index{Empresa@{Empresa}!print\+Arvore\+Servicos@{print\+Arvore\+Servicos}}
+\index{print\+Arvore\+Servicos@{print\+Arvore\+Servicos}!Empresa@{Empresa}}
+\subsubsection{\texorpdfstring{print\+Arvore\+Servicos()}{printArvoreServicos()}}
+{\footnotesize\ttfamily void Empresa\+::print\+Arvore\+Servicos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+imprime informacao sobre a \hyperlink{class_b_s_t}{B\+ST} de servicos da empresa 
+
+/$\ast$ \mbox{\Hypertarget{class_empresa_a232b5da45afd7aad19ab503210b0c922}\label{class_empresa_a232b5da45afd7aad19ab503210b0c922}} 
+\index{Empresa@{Empresa}!print\+Tabela\+Clientes\+Inativos@{print\+Tabela\+Clientes\+Inativos}}
+\index{print\+Tabela\+Clientes\+Inativos@{print\+Tabela\+Clientes\+Inativos}!Empresa@{Empresa}}
+\subsubsection{\texorpdfstring{print\+Tabela\+Clientes\+Inativos()}{printTabelaClientesInativos()}}
+{\footnotesize\ttfamily void Empresa\+::print\+Tabela\+Clientes\+Inativos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+imprime informacao relativa a hash table de clientes inativos da empresa 
+
+/$\ast$ \mbox{\Hypertarget{class_empresa_a218427b819a92be11e5f1c808dcd3153}\label{class_empresa_a218427b819a92be11e5f1c808dcd3153}} 
+\index{Empresa@{Empresa}!update\+Arvore\+Servicos@{update\+Arvore\+Servicos}}
+\index{update\+Arvore\+Servicos@{update\+Arvore\+Servicos}!Empresa@{Empresa}}
+\subsubsection{\texorpdfstring{update\+Arvore\+Servicos()}{updateArvoreServicos()}}
+{\footnotesize\ttfamily void Empresa\+::update\+Arvore\+Servicos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+atualiza \hyperlink{class_b_s_t}{B\+ST} de servicos da empresa 
+
+/$\ast$ \mbox{\Hypertarget{class_empresa_a99f0d3892ad29e4c44e72f14189c4388}\label{class_empresa_a99f0d3892ad29e4c44e72f14189c4388}} 
+\index{Empresa@{Empresa}!update\+Tabela\+Clientes\+Inativos@{update\+Tabela\+Clientes\+Inativos}}
+\index{update\+Tabela\+Clientes\+Inativos@{update\+Tabela\+Clientes\+Inativos}!Empresa@{Empresa}}
+\subsubsection{\texorpdfstring{update\+Tabela\+Clientes\+Inativos()}{updateTabelaClientesInativos()}}
+{\footnotesize\ttfamily bool Empresa\+::update\+Tabela\+Clientes\+Inativos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+atualiza hash table de clientes inativos da empresa 
+
+/$\ast$ 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/user/\+Desktop/\+Taxis src/src/Empresa.\+h\item 
+C\+:/\+Users/user/\+Desktop/\+Taxis src/src/Empresa.\+cpp\end{DoxyCompactItemize}

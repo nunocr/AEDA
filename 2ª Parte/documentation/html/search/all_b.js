@@ -1,0 +1,10 @@
+var searchData=
+[
+  ['pagamentocartaocredito',['pagamentoCartaoCredito',['../class_registado.html#a1d6da4b2cbc8340fa79055a026d4ea44',1,'Registado::pagamentoCartaoCredito(Servico &amp;serv)'],['../class_registado.html#a957b62d73c6ea619fb29e63255e11b12',1,'Registado::pagamentoCartaoCredito(unsigned int id)']]],
+  ['pagamentofimdomes',['pagamentoFimDoMes',['../class_registado.html#a87218f9b1e1aa767c6c77b71f38cca55',1,'Registado::pagamentoFimDoMes(std::vector&lt; Servico *&gt; servs)'],['../class_registado.html#a0ee7364d85601f95bfe6bf45c062ec06',1,'Registado::pagamentoFimDoMes(std::vector&lt; unsigned int &gt; ids)']]],
+  ['pagamentomultibanco',['pagamentoMultibanco',['../class_cliente.html#a6e230e5e512bebe07bfa1ad6750b8cee',1,'Cliente::pagamentoMultibanco()'],['../class_registado.html#a36be4ccf8e4b1bc26be7c1c2d4612229',1,'Registado::pagamentoMultibanco(Servico &amp;serv)'],['../class_registado.html#a3338ad6a9c5980671f2eb3b48d8798de',1,'Registado::pagamentoMultibanco(unsigned int id)']]],
+  ['pagamentonumerario',['pagamentoNumerario',['../class_cliente.html#a68646846a80de5cdcb61b1f8a13e4fb8',1,'Cliente::pagamentoNumerario()'],['../class_registado.html#af3c8f63f7df1cdfd27e44126f78b71d8',1,'Registado::pagamentoNumerario(Servico &amp;serv)'],['../class_registado.html#a16a6ec63ed53fd4b6ebb1105ae5812d7',1,'Registado::pagamentoNumerario(unsigned int id)']]],
+  ['particular',['Particular',['../class_particular.html',1,'Particular'],['../class_particular.html#a355034b30f29b3fecf6654de8d652aa7',1,'Particular::Particular(std::string nome, std::string morada, const unsigned int NIF)'],['../class_particular.html#a794314799e022e8f05fda84af1722bc8',1,'Particular::Particular(std::string nome, std::string morada)'],['../class_particular.html#a55ebdb7b32d55be44f903be5a4f4d6aa',1,'Particular::Particular(std::string nome)']]],
+  ['printarvoreservicos',['printArvoreServicos',['../class_empresa.html#a7e760a09feabb76e7ab0b121be61be4a',1,'Empresa']]],
+  ['printtabelaclientesinativos',['printTabelaClientesInativos',['../class_empresa.html#a232b5da45afd7aad19ab503210b0c922',1,'Empresa']]]
+];

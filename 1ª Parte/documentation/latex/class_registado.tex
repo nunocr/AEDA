@@ -1,0 +1,302 @@
+\hypertarget{class_registado}{}\section{Registado Class Reference}
+\label{class_registado}\index{Registado@{Registado}}
+Inheritance diagram for Registado\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_registado}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_registado_ace8988ba72da772309e5aebf0bc82d4d}{Registado} (std\+::string nome, std\+::string morada, const unsigned int N\+IF)
+\item 
+\hyperlink{class_registado_a2ebad03ff43e207581c62952a88129b4}{Registado} (std\+::string nome, std\+::string morada)
+\item 
+\hyperlink{class_registado_a67a8d0c0dbd3103deae8813eb0958752}{Registado} (std\+::string nome)
+\item 
+std\+::vector$<$ \hyperlink{class_servico}{Servico} $\ast$ $>$ \hyperlink{class_registado_a304848f6ce1d82ad8438ec5e273cbc2d}{get\+Historico} () const
+\item 
+virtual std\+::string \hyperlink{class_registado_a7017f0d74afd44459c3d6affcb303d52}{get\+Informacao} () const
+\item 
+void \hyperlink{class_registado_a4570e0b507ef86f7fce56510f118a887}{operator=} (const \hyperlink{class_registado}{Registado} \&reg)
+\item 
+virtual std\+::string \hyperlink{class_registado_a15109adc7cd6a8834bd2ef909bcde008}{get\+Informacao\+Servicos} () const
+\item 
+\hypertarget{class_registado_a3512b905e10ee9a629c4dbbdc692f420}{}\label{class_registado_a3512b905e10ee9a629c4dbbdc692f420} 
+virtual std\+::string {\bfseries get\+Tipo} () const
+\item 
+virtual bool \hyperlink{class_registado_af3c8f63f7df1cdfd27e44126f78b71d8}{pagamento\+Numerario} (\hyperlink{class_servico}{Servico} \&serv)
+\item 
+virtual bool \hyperlink{class_registado_a36be4ccf8e4b1bc26be7c1c2d4612229}{pagamento\+Multibanco} (\hyperlink{class_servico}{Servico} \&serv)
+\item 
+virtual bool \hyperlink{class_registado_a1d6da4b2cbc8340fa79055a026d4ea44}{pagamento\+Cartao\+Credito} (\hyperlink{class_servico}{Servico} \&serv)
+\item 
+virtual bool \hyperlink{class_registado_a87218f9b1e1aa767c6c77b71f38cca55}{pagamento\+Fim\+Do\+Mes} (std\+::vector$<$ \hyperlink{class_servico}{Servico} $\ast$$>$ servs)
+\item 
+virtual bool \hyperlink{class_registado_a16a6ec63ed53fd4b6ebb1105ae5812d7}{pagamento\+Numerario} (unsigned int id)
+\item 
+virtual bool \hyperlink{class_registado_a3338ad6a9c5980671f2eb3b48d8798de}{pagamento\+Multibanco} (unsigned int id)
+\item 
+virtual bool \hyperlink{class_registado_a957b62d73c6ea619fb29e63255e11b12}{pagamento\+Cartao\+Credito} (unsigned int id)
+\item 
+virtual bool \hyperlink{class_registado_a0ee7364d85601f95bfe6bf45c062ec06}{pagamento\+Fim\+Do\+Mes} (std\+::vector$<$ unsigned int $>$ ids)
+\item 
+bool \hyperlink{class_registado_acc2088074502804017ff3e40022d966c}{adiciona\+Servico} (\hyperlink{class_servico}{Servico} $\ast$serv)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_registado_ab5a4890cf0db0c42da0caeecb6f9f31f}{}\label{class_registado_ab5a4890cf0db0c42da0caeecb6f9f31f} 
+std\+::vector$<$ \hyperlink{class_servico}{Servico} $\ast$ $>$ {\bfseries historico}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_registado_ace8988ba72da772309e5aebf0bc82d4d}{}\label{class_registado_ace8988ba72da772309e5aebf0bc82d4d} 
+\index{Registado@{Registado}!Registado@{Registado}}
+\index{Registado@{Registado}!Registado@{Registado}}
+\subsubsection{\texorpdfstring{Registado()}{Registado()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Registado\+::\+Registado (\begin{DoxyParamCaption}\item[{std\+::string}]{nome,  }\item[{std\+::string}]{morada,  }\item[{const unsigned int}]{N\+IF }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome,morada,N\+IF} & constructor da classe \hyperlink{class_registado}{Registado}, derivadaa da classe \hyperlink{class_cliente}{Cliente} \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_registado_a2ebad03ff43e207581c62952a88129b4}{}\label{class_registado_a2ebad03ff43e207581c62952a88129b4} 
+\index{Registado@{Registado}!Registado@{Registado}}
+\index{Registado@{Registado}!Registado@{Registado}}
+\subsubsection{\texorpdfstring{Registado()}{Registado()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Registado\+::\+Registado (\begin{DoxyParamCaption}\item[{std\+::string}]{nome,  }\item[{std\+::string}]{morada }\end{DoxyParamCaption})}
+
+Constructor de \hyperlink{class_registado}{Registado} 
+\begin{DoxyParams}{Parameters}
+{\em nome,morada,N\+IF} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_registado_a67a8d0c0dbd3103deae8813eb0958752}{}\label{class_registado_a67a8d0c0dbd3103deae8813eb0958752} 
+\index{Registado@{Registado}!Registado@{Registado}}
+\index{Registado@{Registado}!Registado@{Registado}}
+\subsubsection{\texorpdfstring{Registado()}{Registado()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Registado\+::\+Registado (\begin{DoxyParamCaption}\item[{std\+::string}]{nome }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & Constructor de um cliente \hyperlink{class_registado}{Registado} \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_registado_acc2088074502804017ff3e40022d966c}{}\label{class_registado_acc2088074502804017ff3e40022d966c} 
+\index{Registado@{Registado}!adiciona\+Servico@{adiciona\+Servico}}
+\index{adiciona\+Servico@{adiciona\+Servico}!Registado@{Registado}}
+\subsubsection{\texorpdfstring{adiciona\+Servico()}{adicionaServico()}}
+{\footnotesize\ttfamily bool Registado\+::adiciona\+Servico (\begin{DoxyParamCaption}\item[{\hyperlink{class_servico}{Servico} $\ast$}]{serv }\end{DoxyParamCaption})}
+
+Adiciona um \hyperlink{class_servico}{Servico} a um cliente \hyperlink{class_registado}{Registado}
+
+
+\begin{DoxyParams}{Parameters}
+{\em serv} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+adiciona, se possivel, um servico ao historico de servicos de um cliente registado \hypertarget{class_registado_a304848f6ce1d82ad8438ec5e273cbc2d}{}\label{class_registado_a304848f6ce1d82ad8438ec5e273cbc2d} 
+\index{Registado@{Registado}!get\+Historico@{get\+Historico}}
+\index{get\+Historico@{get\+Historico}!Registado@{Registado}}
+\subsubsection{\texorpdfstring{get\+Historico()}{getHistorico()}}
+{\footnotesize\ttfamily std\+::vector$<$ \hyperlink{class_servico}{Servico} $\ast$ $>$ Registado\+::get\+Historico (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\begin{DoxyReturn}{Returns}
+historico
+\end{DoxyReturn}
+retorna o historico de clientes requesitados de um cliente registado \hypertarget{class_registado_a7017f0d74afd44459c3d6affcb303d52}{}\label{class_registado_a7017f0d74afd44459c3d6affcb303d52} 
+\index{Registado@{Registado}!get\+Informacao@{get\+Informacao}}
+\index{get\+Informacao@{get\+Informacao}!Registado@{Registado}}
+\subsubsection{\texorpdfstring{get\+Informacao()}{getInformacao()}}
+{\footnotesize\ttfamily std\+::string Registado\+::get\+Informacao (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Informacao sobre um cliente \hyperlink{class_registado}{Registado}
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & retorna uma string com a informacao ja formatada relativamente a um cliente \hyperlink{class_registado}{Registado} \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_cliente_a932ef71b2792dc5df153f82d3e81a6f3}{Cliente}.
+
+
+
+Reimplemented in \hyperlink{class_particular_acde85dcb3d26ca3afe131fb4c35763c8}{Particular}, and \hyperlink{class_empresarial_a28090b6b3db16b6b7ba03d6308c2c309}{Empresarial}.
+
+\hypertarget{class_registado_a15109adc7cd6a8834bd2ef909bcde008}{}\label{class_registado_a15109adc7cd6a8834bd2ef909bcde008} 
+\index{Registado@{Registado}!get\+Informacao\+Servicos@{get\+Informacao\+Servicos}}
+\index{get\+Informacao\+Servicos@{get\+Informacao\+Servicos}!Registado@{Registado}}
+\subsubsection{\texorpdfstring{get\+Informacao\+Servicos()}{getInformacaoServicos()}}
+{\footnotesize\ttfamily std\+::string Registado\+::get\+Informacao\+Servicos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Informacao relativa a sericos
+
+\begin{DoxyReturn}{Returns}
+string
+\end{DoxyReturn}
+Retorna uma string ja formatada com a informacao relativa aos servicos todos do historico de um cliente \hypertarget{class_registado_a4570e0b507ef86f7fce56510f118a887}{}\label{class_registado_a4570e0b507ef86f7fce56510f118a887} 
+\index{Registado@{Registado}!operator=@{operator=}}
+\index{operator=@{operator=}!Registado@{Registado}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily void Registado\+::operator= (\begin{DoxyParamCaption}\item[{const \hyperlink{class_registado}{Registado} \&}]{reg }\end{DoxyParamCaption})}
+
+Operador = para a classe \hyperlink{class_registado}{Registado}, derivado da classe \hyperlink{class_cliente}{Cliente} 
+\begin{DoxyParams}{Parameters}
+{\em reg} & \\
+\hline
+\end{DoxyParams}
+iguala o nome, morada, N\+IF e historico (historico de servicos requesitados do cliente registado) aos membros equivalentes de outro cliente registado \hypertarget{class_registado_a1d6da4b2cbc8340fa79055a026d4ea44}{}\label{class_registado_a1d6da4b2cbc8340fa79055a026d4ea44} 
+\index{Registado@{Registado}!pagamento\+Cartao\+Credito@{pagamento\+Cartao\+Credito}}
+\index{pagamento\+Cartao\+Credito@{pagamento\+Cartao\+Credito}!Registado@{Registado}}
+\subsubsection{\texorpdfstring{pagamento\+Cartao\+Credito()}{pagamentoCartaoCredito()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool Registado\+::pagamento\+Cartao\+Credito (\begin{DoxyParamCaption}\item[{\hyperlink{class_servico}{Servico} \&}]{serv }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Pagamento de um \hyperlink{class_servico}{Servico} de um cliente \hyperlink{class_registado}{Registado}
+
+
+\begin{DoxyParams}{Parameters}
+{\em serv} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+efectua o pagamento de um servico a um cliente \hyperlink{class_registado}{Registado} segundo o metodo de pagamento por cartao de credito \hypertarget{class_registado_a957b62d73c6ea619fb29e63255e11b12}{}\label{class_registado_a957b62d73c6ea619fb29e63255e11b12} 
+\index{Registado@{Registado}!pagamento\+Cartao\+Credito@{pagamento\+Cartao\+Credito}}
+\index{pagamento\+Cartao\+Credito@{pagamento\+Cartao\+Credito}!Registado@{Registado}}
+\subsubsection{\texorpdfstring{pagamento\+Cartao\+Credito()}{pagamentoCartaoCredito()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool Registado\+::pagamento\+Cartao\+Credito (\begin{DoxyParamCaption}\item[{unsigned int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Pagamento de um \hyperlink{class_servico}{Servico} de um cliente \hyperlink{class_registado}{Registado}
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+efectua o pagamento de um servico a um cliente \hyperlink{class_registado}{Registado} segundo o metodo de pagamento por cartao de credito \hypertarget{class_registado_a87218f9b1e1aa767c6c77b71f38cca55}{}\label{class_registado_a87218f9b1e1aa767c6c77b71f38cca55} 
+\index{Registado@{Registado}!pagamento\+Fim\+Do\+Mes@{pagamento\+Fim\+Do\+Mes}}
+\index{pagamento\+Fim\+Do\+Mes@{pagamento\+Fim\+Do\+Mes}!Registado@{Registado}}
+\subsubsection{\texorpdfstring{pagamento\+Fim\+Do\+Mes()}{pagamentoFimDoMes()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool Registado\+::pagamento\+Fim\+Do\+Mes (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \hyperlink{class_servico}{Servico} $\ast$$>$}]{servs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Pagamento de um \hyperlink{class_servico}{Servico} de um cliente \hyperlink{class_registado}{Registado}
+
+
+\begin{DoxyParams}{Parameters}
+{\em servs} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+efectua o pagamento dos servicos de um vector de servicos (historico) a um cliente \hyperlink{class_registado}{Registado} segundo o metodo de pagamento ao fim do mes \hypertarget{class_registado_a0ee7364d85601f95bfe6bf45c062ec06}{}\label{class_registado_a0ee7364d85601f95bfe6bf45c062ec06} 
+\index{Registado@{Registado}!pagamento\+Fim\+Do\+Mes@{pagamento\+Fim\+Do\+Mes}}
+\index{pagamento\+Fim\+Do\+Mes@{pagamento\+Fim\+Do\+Mes}!Registado@{Registado}}
+\subsubsection{\texorpdfstring{pagamento\+Fim\+Do\+Mes()}{pagamentoFimDoMes()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool Registado\+::pagamento\+Fim\+Do\+Mes (\begin{DoxyParamCaption}\item[{std\+::vector$<$ unsigned int $>$}]{ids }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Pagamento de um \hyperlink{class_servico}{Servico} de um cliente \hyperlink{class_registado}{Registado}
+
+
+\begin{DoxyParams}{Parameters}
+{\em ids} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+efectua o pagamento de um vector de ids de servicos a um cliente \hyperlink{class_registado}{Registado} segundo o metodo de pagamento ao fim do mes \hypertarget{class_registado_a36be4ccf8e4b1bc26be7c1c2d4612229}{}\label{class_registado_a36be4ccf8e4b1bc26be7c1c2d4612229} 
+\index{Registado@{Registado}!pagamento\+Multibanco@{pagamento\+Multibanco}}
+\index{pagamento\+Multibanco@{pagamento\+Multibanco}!Registado@{Registado}}
+\subsubsection{\texorpdfstring{pagamento\+Multibanco()}{pagamentoMultibanco()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool Registado\+::pagamento\+Multibanco (\begin{DoxyParamCaption}\item[{\hyperlink{class_servico}{Servico} \&}]{serv }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Pagamento de um \hyperlink{class_servico}{Servico} de um cliente \hyperlink{class_registado}{Registado}
+
+
+\begin{DoxyParams}{Parameters}
+{\em serv} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+efectua o pagamento de um servico a um cliente \hyperlink{class_registado}{Registado} segundo o metodo de pagamento por multibanco 
+
+Reimplemented from \hyperlink{class_cliente_a6e230e5e512bebe07bfa1ad6750b8cee}{Cliente}.
+
+\hypertarget{class_registado_a3338ad6a9c5980671f2eb3b48d8798de}{}\label{class_registado_a3338ad6a9c5980671f2eb3b48d8798de} 
+\index{Registado@{Registado}!pagamento\+Multibanco@{pagamento\+Multibanco}}
+\index{pagamento\+Multibanco@{pagamento\+Multibanco}!Registado@{Registado}}
+\subsubsection{\texorpdfstring{pagamento\+Multibanco()}{pagamentoMultibanco()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool Registado\+::pagamento\+Multibanco (\begin{DoxyParamCaption}\item[{unsigned int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Pagamento de um \hyperlink{class_servico}{Servico} de um cliente \hyperlink{class_registado}{Registado}
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+efectua o pagamento de um servico a um cliente \hyperlink{class_registado}{Registado} segundo o metodo de pagamento por multibanco \hypertarget{class_registado_af3c8f63f7df1cdfd27e44126f78b71d8}{}\label{class_registado_af3c8f63f7df1cdfd27e44126f78b71d8} 
+\index{Registado@{Registado}!pagamento\+Numerario@{pagamento\+Numerario}}
+\index{pagamento\+Numerario@{pagamento\+Numerario}!Registado@{Registado}}
+\subsubsection{\texorpdfstring{pagamento\+Numerario()}{pagamentoNumerario()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool Registado\+::pagamento\+Numerario (\begin{DoxyParamCaption}\item[{\hyperlink{class_servico}{Servico} \&}]{serv }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Pagamento de um \hyperlink{class_servico}{Servico} de um cliente \hyperlink{class_registado}{Registado}
+
+
+\begin{DoxyParams}{Parameters}
+{\em serv} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+efectua o pagamento de um servico a um cliente \hyperlink{class_registado}{Registado} segundo o metodo de pagamento por numerario 
+
+Reimplemented from \hyperlink{class_cliente_a68646846a80de5cdcb61b1f8a13e4fb8}{Cliente}.
+
+\hypertarget{class_registado_a16a6ec63ed53fd4b6ebb1105ae5812d7}{}\label{class_registado_a16a6ec63ed53fd4b6ebb1105ae5812d7} 
+\index{Registado@{Registado}!pagamento\+Numerario@{pagamento\+Numerario}}
+\index{pagamento\+Numerario@{pagamento\+Numerario}!Registado@{Registado}}
+\subsubsection{\texorpdfstring{pagamento\+Numerario()}{pagamentoNumerario()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool Registado\+::pagamento\+Numerario (\begin{DoxyParamCaption}\item[{unsigned int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Pagamento de um \hyperlink{class_servico}{Servico} de um cliente \hyperlink{class_registado}{Registado}
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool
+\end{DoxyReturn}
+efectua o pagamento de um servico a um cliente \hyperlink{class_registado}{Registado} segundo o metodo de pagamento por numerario 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+User\+Candido/\+Desktop/\+Eclipse A\+E\+D\+A/\+C\+A\+L/\+Taxis 2/src/Cliente.\+h\item 
+C\+:/\+Users/\+User\+Candido/\+Desktop/\+Eclipse A\+E\+D\+A/\+C\+A\+L/\+Taxis 2/src/Cliente.\+cpp\end{DoxyCompactItemize}

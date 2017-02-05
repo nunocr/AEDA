@@ -1,0 +1,203 @@
+\hypertarget{class_interface}{}\section{Interface Class Reference}
+\label{class_interface}\index{Interface@{Interface}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_interface_ac763e84ad5184ca1eb3886be630b09e3}{Get\+Input} ()
+\item 
+void \hyperlink{class_interface_afb2590e3e0f91b49c832e3d0f382c376}{Display\+Menu\+Inicial} ()
+\item 
+void \hyperlink{class_interface_a2b7c19c3b998e017229281c206878d4b}{Menu\+Inicial} (\hyperlink{class_empresa}{Empresa} $\ast$emp)
+\item 
+void \hyperlink{class_interface_ad35305d21a036b5e7bf6456cc21e9de7}{Display\+Menu\+Principal} ()
+\item 
+void \hyperlink{class_interface_a480cc121be6baeb6cfd67a3cae133976}{Menu\+Principal} (\hyperlink{class_empresa}{Empresa} $\ast$emp)
+\item 
+\mbox{\Hypertarget{class_interface_a13a0f1888602433f7795517fd20a2e2f}\label{class_interface_a13a0f1888602433f7795517fd20a2e2f}} 
+void \hyperlink{class_interface_a13a0f1888602433f7795517fd20a2e2f}{Display\+Menu\+Estruturas\+Dados} ()
+\begin{DoxyCompactList}\small\item\em imprime o menu relativo as 3 estruturas de dados abordadas na segunda parte do trabalho \end{DoxyCompactList}\item 
+void \hyperlink{class_interface_abb7fd2836a79da4c173e76806f32b824}{Menu\+Estruturas\+Dados} (\hyperlink{class_empresa}{Empresa} $\ast$emp)
+\begin{DoxyCompactList}\small\item\em invoca o menu relativo as estruturas de dados e a sua logica /$\ast$ \end{DoxyCompactList}\item 
+void \hyperlink{class_interface_a14cd6327ea13b33eb29e9529e48edefc}{Novo\+Ficheiro} (\hyperlink{class_empresa}{Empresa} $\ast$emp)
+\item 
+void \hyperlink{class_interface_a5b714a5d6e7900b9107b473e00d08dae}{Carrega\+Ficheiro} (\hyperlink{class_empresa}{Empresa} $\ast$emp)
+\item 
+void \hyperlink{class_interface_a3b1b28a27230f16115119c2527e9d8ec}{Guarda\+Ficheiro} (\hyperlink{class_empresa}{Empresa} $\ast$emp)
+\item 
+\mbox{\Hypertarget{class_interface_a9c40cde97511ef28f13c90542b97a4b3}\label{class_interface_a9c40cde97511ef28f13c90542b97a4b3}} 
+\hyperlink{class_cliente}{Cliente} $\ast$ {\bfseries Criar\+Cliente} ()
+\item 
+\hyperlink{class_registado}{Registado} $\ast$ \hyperlink{class_interface_afd565930dccaf38d5f9e21efae24ef81}{Criar\+Registado} ()
+\item 
+\hyperlink{class_servico}{Servico} $\ast$ \hyperlink{class_interface_a5861d0b80a0dde42aa241d1f9281773b}{Criar\+Servico} ()
+\item 
+\hyperlink{class_empresa}{Empresa} $\ast$ \hyperlink{class_interface_ac7250359ca4316ea76e0c345563e1d16}{Criar\+Empresa} ()
+\item 
+void \hyperlink{class_interface_adab259ae956337a4d694798e0018c67f}{Display\+Menu\+Pagamento} ()
+\item 
+void \hyperlink{class_interface_ab5f3406ca0eefdc8a2be60c390a1abe8}{Menu\+Pagamento} (\hyperlink{class_empresa}{Empresa} $\ast$emp)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_interface_a5b714a5d6e7900b9107b473e00d08dae}\label{class_interface_a5b714a5d6e7900b9107b473e00d08dae}} 
+\index{Interface@{Interface}!Carrega\+Ficheiro@{Carrega\+Ficheiro}}
+\index{Carrega\+Ficheiro@{Carrega\+Ficheiro}!Interface@{Interface}}
+\subsubsection{\texorpdfstring{Carrega\+Ficheiro()}{CarregaFicheiro()}}
+{\footnotesize\ttfamily void Interface\+::\+Carrega\+Ficheiro (\begin{DoxyParamCaption}\item[{\hyperlink{class_empresa}{Empresa} $\ast$}]{emp }\end{DoxyParamCaption})}
+
+carrega um ficheiro solicitado pelo utilizador para inicio do programa
+
+
+\begin{DoxyParams}{Parameters}
+{\em emp} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_interface_ac7250359ca4316ea76e0c345563e1d16}\label{class_interface_ac7250359ca4316ea76e0c345563e1d16}} 
+\index{Interface@{Interface}!Criar\+Empresa@{Criar\+Empresa}}
+\index{Criar\+Empresa@{Criar\+Empresa}!Interface@{Interface}}
+\subsubsection{\texorpdfstring{Criar\+Empresa()}{CriarEmpresa()}}
+{\footnotesize\ttfamily \hyperlink{class_empresa}{Empresa} $\ast$ Interface\+::\+Criar\+Empresa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+permite ao jogador criar a sua empresa
+
+\begin{DoxyReturn}{Returns}
+Empresa$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_interface_afd565930dccaf38d5f9e21efae24ef81}\label{class_interface_afd565930dccaf38d5f9e21efae24ef81}} 
+\index{Interface@{Interface}!Criar\+Registado@{Criar\+Registado}}
+\index{Criar\+Registado@{Criar\+Registado}!Interface@{Interface}}
+\subsubsection{\texorpdfstring{Criar\+Registado()}{CriarRegistado()}}
+{\footnotesize\ttfamily \hyperlink{class_registado}{Registado} $\ast$ Interface\+::\+Criar\+Registado (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+«permite ao utilizador criar um cliente \hyperlink{class_registado}{Registado}
+
+\begin{DoxyReturn}{Returns}
+Registado$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_interface_a5861d0b80a0dde42aa241d1f9281773b}\label{class_interface_a5861d0b80a0dde42aa241d1f9281773b}} 
+\index{Interface@{Interface}!Criar\+Servico@{Criar\+Servico}}
+\index{Criar\+Servico@{Criar\+Servico}!Interface@{Interface}}
+\subsubsection{\texorpdfstring{Criar\+Servico()}{CriarServico()}}
+{\footnotesize\ttfamily \hyperlink{class_servico}{Servico} $\ast$ Interface\+::\+Criar\+Servico (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+permite ao utilizador criar um servico
+
+\begin{DoxyReturn}{Returns}
+Servico$\ast$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_interface_afb2590e3e0f91b49c832e3d0f382c376}\label{class_interface_afb2590e3e0f91b49c832e3d0f382c376}} 
+\index{Interface@{Interface}!Display\+Menu\+Inicial@{Display\+Menu\+Inicial}}
+\index{Display\+Menu\+Inicial@{Display\+Menu\+Inicial}!Interface@{Interface}}
+\subsubsection{\texorpdfstring{Display\+Menu\+Inicial()}{DisplayMenuInicial()}}
+{\footnotesize\ttfamily void Interface\+::\+Display\+Menu\+Inicial (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+mostra o menu inicial \mbox{\Hypertarget{class_interface_adab259ae956337a4d694798e0018c67f}\label{class_interface_adab259ae956337a4d694798e0018c67f}} 
+\index{Interface@{Interface}!Display\+Menu\+Pagamento@{Display\+Menu\+Pagamento}}
+\index{Display\+Menu\+Pagamento@{Display\+Menu\+Pagamento}!Interface@{Interface}}
+\subsubsection{\texorpdfstring{Display\+Menu\+Pagamento()}{DisplayMenuPagamento()}}
+{\footnotesize\ttfamily void Interface\+::\+Display\+Menu\+Pagamento (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+mostra o menu de pagamento \mbox{\Hypertarget{class_interface_ad35305d21a036b5e7bf6456cc21e9de7}\label{class_interface_ad35305d21a036b5e7bf6456cc21e9de7}} 
+\index{Interface@{Interface}!Display\+Menu\+Principal@{Display\+Menu\+Principal}}
+\index{Display\+Menu\+Principal@{Display\+Menu\+Principal}!Interface@{Interface}}
+\subsubsection{\texorpdfstring{Display\+Menu\+Principal()}{DisplayMenuPrincipal()}}
+{\footnotesize\ttfamily void Interface\+::\+Display\+Menu\+Principal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+mostra o menu principal \mbox{\Hypertarget{class_interface_ac763e84ad5184ca1eb3886be630b09e3}\label{class_interface_ac763e84ad5184ca1eb3886be630b09e3}} 
+\index{Interface@{Interface}!Get\+Input@{Get\+Input}}
+\index{Get\+Input@{Get\+Input}!Interface@{Interface}}
+\subsubsection{\texorpdfstring{Get\+Input()}{GetInput()}}
+{\footnotesize\ttfamily int Interface\+::\+Get\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+requesita um valor integral ao utilizador
+
+\begin{DoxyReturn}{Returns}
+choice 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_interface_a3b1b28a27230f16115119c2527e9d8ec}\label{class_interface_a3b1b28a27230f16115119c2527e9d8ec}} 
+\index{Interface@{Interface}!Guarda\+Ficheiro@{Guarda\+Ficheiro}}
+\index{Guarda\+Ficheiro@{Guarda\+Ficheiro}!Interface@{Interface}}
+\subsubsection{\texorpdfstring{Guarda\+Ficheiro()}{GuardaFicheiro()}}
+{\footnotesize\ttfamily void Interface\+::\+Guarda\+Ficheiro (\begin{DoxyParamCaption}\item[{\hyperlink{class_empresa}{Empresa} $\ast$}]{emp }\end{DoxyParamCaption})}
+
+guarda a sessao actual num ficheiro solicitado pelo utilizador
+
+
+\begin{DoxyParams}{Parameters}
+{\em emp} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_interface_abb7fd2836a79da4c173e76806f32b824}\label{class_interface_abb7fd2836a79da4c173e76806f32b824}} 
+\index{Interface@{Interface}!Menu\+Estruturas\+Dados@{Menu\+Estruturas\+Dados}}
+\index{Menu\+Estruturas\+Dados@{Menu\+Estruturas\+Dados}!Interface@{Interface}}
+\subsubsection{\texorpdfstring{Menu\+Estruturas\+Dados()}{MenuEstruturasDados()}}
+{\footnotesize\ttfamily void Interface\+::\+Menu\+Estruturas\+Dados (\begin{DoxyParamCaption}\item[{\hyperlink{class_empresa}{Empresa} $\ast$}]{emp }\end{DoxyParamCaption})}
+
+
+
+invoca o menu relativo as estruturas de dados e a sua logica /$\ast$ 
+
+/$\ast$ 
+\begin{DoxyParams}{Parameters}
+{\em emp} & empresa do utilizador em questao \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_interface_a2b7c19c3b998e017229281c206878d4b}\label{class_interface_a2b7c19c3b998e017229281c206878d4b}} 
+\index{Interface@{Interface}!Menu\+Inicial@{Menu\+Inicial}}
+\index{Menu\+Inicial@{Menu\+Inicial}!Interface@{Interface}}
+\subsubsection{\texorpdfstring{Menu\+Inicial()}{MenuInicial()}}
+{\footnotesize\ttfamily void Interface\+::\+Menu\+Inicial (\begin{DoxyParamCaption}\item[{\hyperlink{class_empresa}{Empresa} $\ast$}]{emp }\end{DoxyParamCaption})}
+
+invoca o menu inicial e a sua logica
+
+
+\begin{DoxyParams}{Parameters}
+{\em emp} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_interface_ab5f3406ca0eefdc8a2be60c390a1abe8}\label{class_interface_ab5f3406ca0eefdc8a2be60c390a1abe8}} 
+\index{Interface@{Interface}!Menu\+Pagamento@{Menu\+Pagamento}}
+\index{Menu\+Pagamento@{Menu\+Pagamento}!Interface@{Interface}}
+\subsubsection{\texorpdfstring{Menu\+Pagamento()}{MenuPagamento()}}
+{\footnotesize\ttfamily void Interface\+::\+Menu\+Pagamento (\begin{DoxyParamCaption}\item[{\hyperlink{class_empresa}{Empresa} $\ast$}]{emp }\end{DoxyParamCaption})}
+
+invoca o menu de pagamento e a sua logica
+
+
+\begin{DoxyParams}{Parameters}
+{\em emp} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_interface_a480cc121be6baeb6cfd67a3cae133976}\label{class_interface_a480cc121be6baeb6cfd67a3cae133976}} 
+\index{Interface@{Interface}!Menu\+Principal@{Menu\+Principal}}
+\index{Menu\+Principal@{Menu\+Principal}!Interface@{Interface}}
+\subsubsection{\texorpdfstring{Menu\+Principal()}{MenuPrincipal()}}
+{\footnotesize\ttfamily void Interface\+::\+Menu\+Principal (\begin{DoxyParamCaption}\item[{\hyperlink{class_empresa}{Empresa} $\ast$}]{emp }\end{DoxyParamCaption})}
+
+invoca o menu principal e a sua logica
+
+
+\begin{DoxyParams}{Parameters}
+{\em emp} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_interface_a14cd6327ea13b33eb29e9529e48edefc}\label{class_interface_a14cd6327ea13b33eb29e9529e48edefc}} 
+\index{Interface@{Interface}!Novo\+Ficheiro@{Novo\+Ficheiro}}
+\index{Novo\+Ficheiro@{Novo\+Ficheiro}!Interface@{Interface}}
+\subsubsection{\texorpdfstring{Novo\+Ficheiro()}{NovoFicheiro()}}
+{\footnotesize\ttfamily void Interface\+::\+Novo\+Ficheiro (\begin{DoxyParamCaption}\item[{\hyperlink{class_empresa}{Empresa} $\ast$}]{emp }\end{DoxyParamCaption})}
+
+solicita a criacao de um novo ficheiro para o inicio do programam
+
+
+\begin{DoxyParams}{Parameters}
+{\em emp} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/user/\+Desktop/\+Taxis src/src/Interface.\+h\item 
+C\+:/\+Users/user/\+Desktop/\+Taxis src/src/Interface.\+cpp\end{DoxyCompactItemize}

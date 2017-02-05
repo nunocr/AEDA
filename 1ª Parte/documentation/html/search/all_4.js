@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['getdata',['getData',['../class_servico.html#aef61103b440f1836564e82ba17999ff2',1,'Servico']]],
+  ['getdefaultid',['getDefaultId',['../class_servico.html#af35c95d3aea91550c261110d236fe557',1,'Servico']]],
+  ['getdefaultvalor',['getDefaultValor',['../class_servico.html#a139c67d63bce1723bf9bd1db05cbcc31',1,'Servico']]],
+  ['getdestino',['getDestino',['../class_servico.html#a715e7c0bf6aa2479930b16ad023b2691',1,'Servico']]],
+  ['getestado',['getEstado',['../class_servico.html#a60e091f3c66a19a2def89e31638aadb4',1,'Servico']]],
+  ['getfimperiodotransito',['getFimPeriodoTransito',['../class_servico.html#a376dc1a7619fce4be391b7f74a17c4df',1,'Servico']]],
+  ['gethistorico',['getHistorico',['../class_registado.html#a304848f6ce1d82ad8438ec5e273cbc2d',1,'Registado']]],
+  ['gethoras',['getHoras',['../class_servico.html#aa2300b7df851d1364c1169b319902ec7',1,'Servico']]],
+  ['getid',['getId',['../class_servico.html#a9d988317886813534139f10a1ff9f7e9',1,'Servico']]],
+  ['getimpostotransito',['getImpostoTransito',['../class_servico.html#a558609d8ad7788077ae862d6310b4749',1,'Servico']]],
+  ['getinformacao',['getInformacao',['../class_cliente.html#a932ef71b2792dc5df153f82d3e81a6f3',1,'Cliente::getInformacao()'],['../class_registado.html#a7017f0d74afd44459c3d6affcb303d52',1,'Registado::getInformacao()'],['../class_empresarial.html#a28090b6b3db16b6b7ba03d6308c2c309',1,'Empresarial::getInformacao()'],['../class_particular.html#acde85dcb3d26ca3afe131fb4c35763c8',1,'Particular::getInformacao()'],['../class_servico.html#aeff1f2a4fa64195ddae2beb02456ac2b',1,'Servico::getInformacao()']]],
+  ['getinformacaoservicos',['getInformacaoServicos',['../class_registado.html#a15109adc7cd6a8834bd2ef909bcde008',1,'Registado']]],
+  ['getinicioperiodotransito',['getInicioPeriodoTransito',['../class_servico.html#a69298e17de982c6e78ce1bd73913bf65',1,'Servico']]],
+  ['getinput',['GetInput',['../class_interface.html#ac763e84ad5184ca1eb3886be630b09e3',1,'Interface']]],
+  ['getnif',['getNIF',['../class_servico.html#a55bffcfc2f93d1b2b2668e229d23027c',1,'Servico']]],
+  ['getorigem',['getOrigem',['../class_servico.html#a94a8edb640edc76aa7b7af9081fc2fd0',1,'Servico']]],
+  ['gettipo',['getTipo',['../class_empresarial.html#a3d5d89f5a446fdcca0955d289592edaf',1,'Empresarial::getTipo()'],['../class_particular.html#ac7fc22a792b8c711d5f424ad9af19755',1,'Particular::getTipo()']]],
+  ['getvalor',['getValor',['../class_servico.html#ad383b4f4056f5b7d3fc82e95675c557e',1,'Servico']]],
+  ['guardaficheiro',['GuardaFicheiro',['../class_interface.html#a3b1b28a27230f16115119c2527e9d8ec',1,'Interface']]]
+];
